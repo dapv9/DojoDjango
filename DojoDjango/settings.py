@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'DojoDjango.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd6dob5u5eph1bu',
+        'USER': 'alldcnayjcqkor',     
+        'PASSWORD': 'fb0e42a2d3fad2ae365d41e446e3a1c8753066625413a9d51e9efef834b16360',
+        'HOST': 'ec2-23-21-224-106.compute-1.amazonaws.com',
+        'PORT': 5432,
     }
 }
 
